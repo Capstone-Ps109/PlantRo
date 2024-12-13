@@ -1,0 +1,69 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.plantro.ui.history.">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo_plantro"
+        android:layout_width="71dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/logo_plantro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_plantro" />
+
+    <ImageView
+        android:id="@+id/teks_plantro"
+        android:layout_width="167dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/teks_plantro"
+        app:layout_constraintStart_toEndOf="@id/logo_plantro"
+        app:layout_constraintTop_toTopOf="@id/logo_plantro"
+        app:srcCompat="@drawable/teks_plantro" />
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/title_menu_history"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/teks_plantro"/>
+
+    <!-- RecyclerView -->
+
+    <!-- ProgressBar -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvHistoryInput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="132dp"
+        android:padding="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/rvHistoryInput"
+        app:layout_constraintStart_toStartOf="@id/rvHistoryInput"
+        app:layout_constraintTop_toTopOf="@id/rvHistoryInput"
+        app:layout_constraintBottom_toBottomOf="@id/rvHistoryInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">PlantRo</string>
+    <string name="title">EVENT DICODING</string>
+    <string name="description">Rekomendasi Event untukmu…</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_mendatang">Mendatang</string>
+    <string name="title_selesai">Selesai</string>
+    <string name="title_favorite">Dibintangi</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="setting_name">Setting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_rekomendasi">Rekomendasi Tanaman dan bibit</string>
+    <string name="home_welcome">home_welcome</string>
+    <string name="menu_profile">menu_profile</string>
+    <string name="teks_plantro">teks_plantro</string>
+    <string name="logo_plantro">logo_plantro</string>
+    <string name="home_teks_welcome">Selamat Datang</string>
+    <string name="cari_tanaman_pupuk">Cari tanaman / pupuk</string>
+    <string name="title_iinput">Input Data</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="kadar_nitrogen">Kadar Nitrogen (mg/kg)</string>
+    <string name="kadar_fosfor">Kadar Fosfor (mg/kg)</string>
+    <string name="kadar_kalium">Kadar Kalium(mg/kg)</string>
+    <string name="suhu">Suhu (C)</string>
+    <string name="kelembapan_tanah">Kelembapan Tanah (%)</string>
+    <string name="curah_hujan">Curah Hujan (mm/tahun)</string>
+    <string name="title_menu_input">INPUT KONDISI LAHAN</string>
+    <string name="web_client_id">383044705891-ipif8qdg6i23v7136l997934nlv7k6vh.apps.googleusercontent.com</string>
+    <string name="title_welcome_page">Selamat datang di Dicoding Story!</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Isi datamu dulu ya</string>
+    <string name="title_login_page">Sudah siap untuk berbagi ilmu?</string>
+    <string name="textRegisterButton">Belum Punya Akun</string>
+    <string name="registerbtn">Register</string>
+    <string name="textLoginButton">Sudah Punya Akun ?</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="name">Nama</string>
+    <string name="user_name">DULOH</string>
+    <string name="user_email">dulohcuy@gmail.com</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="teks_title_output">Rekomendasi Hasil Rotasi Tanaman</string>
+    <string name="output_teks">Maize</string>
+    <string name="ph_tanah">pH Tanah (nilai 0-14)</string>
+    <string name="title_menu_history">HISTORY</string>
+
+</resources>

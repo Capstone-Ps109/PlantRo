@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo_plantro"
+        android:layout_width="71dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/logo_plantro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_plantro" />
+
+    <ImageView
+        android:id="@+id/teks_plantro"
+        android:layout_width="167dp"
+        android:layout_height="46dp"
+        android:contentDescription="@string/teks_plantro"
+        app:layout_constraintStart_toEndOf="@id/logo_plantro"
+        app:layout_constraintTop_toTopOf="@id/logo_plantro"
+        app:srcCompat="@drawable/teks_plantro" />
+
+    <!-- Welcome Banner -->
+    <ImageView
+        android:id="@+id/home_welcome"
+        android:layout_width="0dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/home_welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/teks_plantro"
+        app:srcCompat="@drawable/home_welcome" />
+
+    <!-- TextView4 overlaying home_welcome -->
+
+    <!-- Rest of the layout remains the same -->
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="48dp"
+        android:text="Selamat Datang"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/home_welcome"
+        app:layout_constraintTop_toTopOf="@id/home_welcome" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#F0E4E4"
+        android:backgroundTint="#D8F2E9E9"
+        android:queryHint="Cari tanaman / pupuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_welcome" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/home_rekomendasi"
+        android:textColor="#0D986A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/searchView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBarang"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

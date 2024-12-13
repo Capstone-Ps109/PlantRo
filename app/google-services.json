@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "383044705891",
+    "project_id": "dicodingevent",
+    "storage_bucket": "dicodingevent.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383044705891:android:4a08813c3ed3d1965de256",
+        "android_client_info": {
+          "package_name": "com.example.dicodingevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383044705891-nlch34n20bil60p5iecqg4rl9gfsfvav.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dicodingevent",
+            "certificate_hash": "d63eac355d7614fd5c3e1fed8313c53790efe6fc"
+          }
+        },
+        {
+          "client_id": "383044705891-ipif8qdg6i23v7136l997934nlv7k6vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjNJZPSJchL2VT5yWiGBsL829Ajmxunlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383044705891-ipif8qdg6i23v7136l997934nlv7k6vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PlantRo" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.PlantRo" parent="Base.Theme.PlantRo" />
+    <style name="CustomSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColorHint">#140202</item>
+    </style>
+
+</resources>
